@@ -23,6 +23,13 @@ Projeto que implementa um pipeline para simulação e análise de logs de TI no 
     jupyter notebook
     # ou
     python <nome_do_script>.py
+3. Formato esperado do arquivo logs_reais.txt (caso use o arquivo ..._ler_arquivo.py)
+   ```yaml
+   2025-04-07 14:23:01 | 192.168.1.1 | INFO | Operação realizada com sucesso
+   2025-04-07 14:25:12 | 192.168.1.10 | WARN | Tentativa de acesso indevido detectada
+Ou seja:
+**data hora | IP | nível | mensagem**
+
 ## Autores
 * Carlos Matos | RGM: 29622182
 * Gustavo Taglianetti | RGM: 29649111
